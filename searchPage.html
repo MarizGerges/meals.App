@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>search</title>
+    <link rel="stylesheet" href="css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="d-flex">
+
+    <nav class="d-flex">
+      <div class=" text-white d-flex flex-column position-fixed bg-black h-100"
+        id="options">
+        <ul>
+          <li>Search</li>
+          <li> Categories</li>
+          <li> Area</li>
+          <li>Ingredients</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div class="bg-white d-flex flex-column justify-content-between
+        align-items-center position-fixed" id="navBar">
+        <img src="img/logo.png" alt="logo">
+        <i class="fa-solid fa-bars "></i>
+        <div class="d-flex flex-column ">
+          <i class="fa-solid fa-globe"></i>
+          <i class="fa-solid fa-share-nodes"></i>
+        </div>
+      </div>
+    </nav>
+     
+    <section class=" m-5 container mx-auto text-white">
+        <div class="row px-md-5 m-auto gy-5"  >
+         <div class="col-md-6">
+          <input type="text" class="form-control text-white bg-dark text-center border-top-0 border-end-0 border-start-0 rounded-0" placeholder="search by name" id="SName" >
+         </div>
+
+         <div class="col-md-6">
+          <input type="text" class="form-control text-white bg-dark text-center border-top-0 border-end-0 border-start-0 rounded-0" placeholder="search by frist latter" id="LName" maxlength="1" >
+         </div>
+         <div class="col-md-12">
+          <div class="row px-md-5 m-auto gy-5" id="posts" >
+          </div>
+         </div>
+         
+        </div>
+          
+      </section>
+      
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/navDisplay.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+
